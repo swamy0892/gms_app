@@ -27,7 +27,7 @@ const LoginPage = () => {
           <input
             type="email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email"
             required
           />
         </div>
@@ -36,12 +36,15 @@ const LoginPage = () => {
           <input
             type="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)} placeholder=" Enter Password"
             required
           />
         </div>
         <button type="submit">Login</button>
       </form>
+      <div>
+        <a href="/ForgotPassword">forgotPassword</a>
+      </div>
       <p>
         Don't have an account? <a href="/register">Register</a>
       </p>

@@ -34,7 +34,7 @@ const RegisterPage = () => {
           <input
             type="text"
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value)} placeholder="Enter your Name"
             required
           />
         </div>
@@ -43,7 +43,7 @@ const RegisterPage = () => {
           <input
             type="text"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            onChange={(e) => setPhone(e.target.value)} placeholder="Enter phone Number"
             required
           />
         </div>
@@ -52,7 +52,7 @@ const RegisterPage = () => {
           <input
             type="email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email"
             required
           />
         </div>
@@ -61,7 +61,7 @@ const RegisterPage = () => {
           <input
             type="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)} placeholder="Enter password"
             required
           />
         </div>

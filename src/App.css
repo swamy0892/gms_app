@@ -11,7 +11,19 @@ h1 {
   color: #4A90E2;
   margin-top: 20px;
 }
-
+.logo-container{
+  margin-right: 10px;
+  background-color: bisque;
+  width: 50px;
+  margin-left: 10px;
+  border-radius: 60px;
+}
+.logo{
+  width: 50px;
+  height: auto;
+  display: flex;
+  border-radius: 50px;
+}
 nav ul {
   display: flex;
   justify-content: center;
@@ -36,7 +48,7 @@ nav a:hover {
 
 /* Page Layout */
 div {
-  max-width: 350px;
+  max-width: 500px;
   margin: 25px auto;
   padding: 20px;
   background-color: floralwhite;
@@ -65,6 +77,9 @@ form input {
   border-radius: 8px;
   width: 90%;
 }
+div ,button_type_ForgotPassword{
+  text-align: center;
+}
 
 form input:focus {
   border-color: #4A90E2;
@@ -78,6 +93,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  text-align: center;
 }
 
 button:hover {
